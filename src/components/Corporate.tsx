@@ -6,10 +6,10 @@ import startup from '../../utils/images/startup.jpg'
 import corporate from '../../utils/images/corporate.png'
 
 const corporateClients = [
-  "DSM – Employee nutrition programs, corporate audits & dietary plans",
-  "Dr. Lal Path Labs – Designed Diabetes Management Program, webinars & patient counseling",
-  "Serensa Health – Nutrition planning for long-term post-surgical rehabilitation",
-  "Terumo India, NIIT, EVOK, Bhartiya International – Talks & customized nutrition plans",
+  "Dr. Lal Path Labs – Designed & Implemented Diabetes Wellness Program; Established End-to-End Program Workflow; Webinars & Patient Counseling",
+  "Terumo India, NIIT, EVOK, Bhartiya International – Talks & Customized Nutrition Plans for Employees",
+  "DSM – Employee Nutrition Programs, Corporate Audits & Dietary Plans",
+  "Serensa Health – Nutrition Planning for Long-Term Post-Surgical Rehabilitation",
 ];
 
 const startupClients = [

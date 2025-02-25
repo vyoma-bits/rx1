@@ -26,9 +26,7 @@ function App() {
             </div>
             <Services />
             <WhyChoose />
-            <div id="services">
-            <DetailedServices />
-            </div>
+
             <div id="collaboration">
             <Corporate />
             </div>
@@ -38,6 +36,9 @@ function App() {
             <Testimonials />
             </div>
             <News />
+            <div id="services">
+            <DetailedServices />
+            </div>
             <FAQ />
           </>
         } />

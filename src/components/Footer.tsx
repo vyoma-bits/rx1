@@ -25,6 +25,7 @@ const Footer = () => {
             <h4 className="font-semibold mt-4 mb-2">Locations</h4>
             <p className="text-gray-600">Sector 4, Gurgaon</p>
             <p className="text-gray-600">DLF Phase 4, Gurgaon</p>
+            <p className="text-gray-600">Sector -63 A, Gurgaon</p>
             <p className="text-gray-600">Greater Kailash 2, New Delhi</p>
           </div>
 
