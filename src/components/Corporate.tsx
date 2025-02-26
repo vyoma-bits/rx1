@@ -1,9 +1,9 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Building2, Rocket, Check } from 'lucide-react';
-import startup from '../../utils/images/startup.jpg'
+import React from "react";
+import { motion } from "framer-motion";
+import { Building2, Rocket, Check } from "lucide-react";
+import startup from "../../utils/images/startup.jpg";
 
-import corporate from '../../utils/images/corporate.png'
+import corporate from "../../utils/images/corporate.png";
 
 const corporateClients = [
   "Dr. Lal Path Labs – Designed & Implemented Diabetes Wellness Program; Established End-to-End Program Workflow; Webinars & Patient Counseling",
@@ -16,6 +16,7 @@ const startupClients = [
   "Blufit (Japan) – Head Dietitian for Keto meal planning & program implementation",
   "The Fine Fettle – Custom wellness and meal planning solutions",
   "Blue Broccoli & Olives – Corporate healthy menu planning",
+  "Visiting Dietitian at Dharma Diabetes Clinics, Aspire Physio, Aspire Physiotherapy Gustav and Emoha Elder Care",
 ];
 
 const Corporate = () => {
@@ -27,9 +28,7 @@ const Corporate = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
-        >
-
-        </motion.div>
+        ></motion.div>
 
         {/* Startup Section */}
         <div className="grid md:grid-cols-2 gap-12 mb-20">
@@ -41,10 +40,16 @@ const Corporate = () => {
           >
             <div className="flex items-center gap-4 mb-6">
               <Rocket className="w-8 h-8 text-blue-600" />
-              <h3 className="text-2xl font-semibold">Start-up Collaborations</h3>
+              <h3 className="text-2xl font-semibold">
+                Start-up Collaborations
+              </h3>
             </div>
-            <p className="text-gray-600 mb-6">
-              I partner with health-focused start-ups to design customized nutrition programs, meal plans, and wellness strategies. From keto meal planning to healthy corporate menus, my expertise helps start-ups bring evidence-based nutrition solutions to their customers.
+            <p className="text-gray-600 text-[18px] mb-6">
+              I partner with health-focused start-ups to design customized
+              nutrition programs, meal plans, and wellness strategies. From keto
+              meal planning to healthy corporate menus, my expertise helps
+              start-ups bring evidence-based nutrition solutions to their
+              customers.
             </p>
             <ul className="space-y-4">
               {startupClients.map((client, index) => (
@@ -99,10 +104,16 @@ const Corporate = () => {
           >
             <div className="flex items-center gap-4 mb-6">
               <Building2 className="w-8 h-8 text-blue-600" />
-              <h3 className="text-2xl font-semibold">Corporate Wellness Partnerships</h3>
+              <h3 className="text-2xl font-semibold">
+                Corporate Wellness Partnerships
+              </h3>
             </div>
             <p className="text-gray-600 mb-6">
-              I work with corporates to enhance employee well-being through nutritional counseling, lifestyle coaching, and health workshops. My programs focus on preventing lifestyle diseases, boosting energy levels, and promoting long-term health, leading to a more productive workforce.
+              I work with corporates to enhance employee well-being through
+              nutritional counseling, lifestyle coaching, and health workshops.
+              My programs focus on preventing lifestyle diseases, boosting
+              energy levels, and promoting long-term health, leading to a more
+              productive workforce.
             </p>
             <ul className="space-y-4">
               {corporateClients.map((client, index) => (
